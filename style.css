@@ -1,0 +1,30 @@
+article {
+    background-color: hsl(210, 46%, 95%);
+}
+
+.doos {
+    background-color: white;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.foto {
+    width: 250px;
+
+}
+
+.kast {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.titel {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.alinea {
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif;
+}
