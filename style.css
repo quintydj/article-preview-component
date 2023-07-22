@@ -1,30 +1,134 @@
-article {
+body {
     background-color: hsl(210, 46%, 95%);
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .doos {
     background-color: white;
-    width: 250px;
+    width: 330px;
     border-radius: 15px;
 }
 
-.foto {
-    width: 250px;
-
-}
-
 .kast {
-    width: 100%;
+    width: 330px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 60% 30%;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
 
+.tekst {
+    margin: 25px;
+    margin-top: 35px;
+    line-height: 1.4;
+}
+
 .titel {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Outfit', sans-serif;
+    color: hsl(217, 19%, 35%);
 }
 
 .alinea {
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Outfit', sans-serif;
+    color: hsl(214, 17%, 51%);
+}
+
+/* .info2 {
+    display: none;
+} */
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+    padding-bottom: 5px;
+}
+
+.selfie {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.naam {
+    margin-left: 15px;
+    width: 190px;
+    line-height: 0.5;
+}
+
+.naam2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+
+.datum {
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: hsl(212, 23%, 69%);
+}
+
+.shareKnop {
+    background-color: hsl(210, 46%, 95%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verstopt2 {
+    display: none;
+}
+
+.verstopt {
+    background-color: hsl(217, 19%, 35%);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h4 {
+    color: hsl(212, 23%, 69%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
+.icons {
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.shareVerstopt {
+    background-color: hsl(214, 17%, 51%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.shareIconVerstopt {
+    filter: brightness(2.5);
 }
