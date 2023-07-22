@@ -41,10 +41,6 @@ article {
     color: hsl(214, 17%, 51%);
 }
 
-/* .info2 {
-    display: none;
-} */
-
 .info {
     display: flex;
     flex-direction: row;
@@ -131,4 +127,21 @@ h4 {
 
 .shareIconVerstopt {
     filter: brightness(2.5);
+}
+
+@media (min-width: 1440px){
+    .doos {
+        width: 1000px;
+        display: flex;
+    }
+
+    .kast {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+        height: 330px;
+    }
+    
+    .info {
+        
+    }
 }
