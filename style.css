@@ -11,6 +11,7 @@ article {
 .doos {
     background-color: white;
     width: 330px;
+    height: 514px;
     border-radius: 15px;
 }
 
@@ -86,6 +87,8 @@ article {
 
 .verstopt2 {
     display: none;
+    position: relative;
+    top: -60px;
 }
 
 .verstopt {
@@ -133,12 +136,13 @@ h4 {
     .doos {
         width: 1000px;
         display: flex;
+        height: 377px;
     }
 
     .kast {
         border-top-right-radius: 0px;
         border-bottom-left-radius: 15px;
-        height: 360px;
+        height: 377px;
     }
 
     .tekst {
@@ -178,24 +182,65 @@ h4 {
         height: 40px;
     }
 
+    .shareKnop:hover {
+        background-color: hsl(217, 19%, 35%);
+    }
+
     .shareIcon {
         width: 20px;
     }
 
+    .shareIcon:hover {
+        filter: brightness(2.5);
+    }
+
     .verstopt {
-        width: 260px;
-        border-radius: 15px;
+        width: 290px;
+        border-radius: 0;
+        background-color: transparent;
+        border: none;
+        padding: 0;
     }
 
     .icons {
+        width: 260px;
+        border-radius: 10px;
+        background-color: hsl(217, 19%, 35%);
+        position: relative;
+        left: 450px;
+        bottom: 88px;
+        margin-bottom: 21px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
 
+    .icons::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 1px;
+        border: 15px solid transparent;
+        border-top-color: hsl(217, 19%, 35%);
+        border-bottom: 0;
+        margin-left: -15px;
+        margin-bottom: -15px;
     }
 
     .shareVerstopt {
-        width: 40px;
+        width: 60px;
         height: 40px;
-        position: absolute;
-        right: 265px;
+        border-radius: 50px;
+        position: relative;
+        left: 311px;
+        top: -3px;
+    }
+
+    .shareVerstopt:hover {
+        background-color: hsl(217, 19%, 35%);
     }
 
     .shareIconVerstopt {
